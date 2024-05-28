@@ -1,0 +1,25 @@
+@api = http://localhost:8080/api
+
+#assd
+GET {{api}}/users
+
+###3
+POST {{api}}/users
+Content-Type: application/json
+
+{
+    "name":"max",
+    "email":"max@gmail.com"
+}
+
+####
+PUT {{api}}/users/1
+Content-Type: application/json
+
+{
+    "name":"Freddy",
+    "email":"gomez@gmail.com"
+}
+
+####
+DELETE {{api}}/users/2
